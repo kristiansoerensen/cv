@@ -12,7 +12,11 @@
     {% assets "js_all" %}
         <script type="text/javascript" src="{{ ASSET_URL }}"></script>
     {% endassets %}
-    <nav>
-    </nav>
+
+    {% include "layout/header.html" %}
+
+    {% block body %}{% endblock body %}
+    
+    {% include "layout/footer.html" %}
 </body>
 </html>
