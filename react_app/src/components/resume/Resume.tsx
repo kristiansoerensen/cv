@@ -34,26 +34,47 @@ const Resume = () => {
                         <div className='flex-container'>
                             <ResumeSubList title='Programming Languages'  useFlex={true}>
                                 <ResumeListItem className='text-start'>
-                                    <ul>
-                                        <li>Arduino C</li>
-                                        <li>C#</li>
-                                        <li>JavaScript</li>
-                                        <li>Python</li>
-                                        <li>Rust</li>
-                                    </ul>
+                                    <div>
+                                        <img width={"30px"} className='img-fluid me-1' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" />
+                                        <h6 className='d-inline-block'>Arduino C</h6>
+                                    </div>
+                                    <div>
+                                        <img width={"30px"} className='img-fluid me-1' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original-wordmark.svg" />
+                                        <h6 className='d-inline-block'>C Scharp</h6>
+                                    </div>
+                                    <div>
+                                        <img width={"30px"} className='img-fluid me-1' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                                        <h6 className='d-inline-block'>JavaScript</h6>
+                                    </div>
+                                    <div>
+                                        <img width={"30px"} className='img-fluid me-1' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                                        <h6 className='d-inline-block'>Rust</h6>
+                                    </div>
                                 </ResumeListItem>
                             </ResumeSubList>
 
                             <ResumeSubList title='Web Development'  useFlex={true}>
                                 <ResumeListItem className='text-start'>
-                                    <ul>
-                                        <li>CSS (Cascading Style Sheets)</li>
-                                        <li>HTML (HyperText Markup Language)</li>
-                                        <li>NodeJS</li>
-                                        <li>SASS (Syntactically Awesome Style Sheets)</li>
-                                        <li>Asp.Net</li>
-                                        <li>.Net</li>
-                                    </ul>
+                                    <div>
+                                        <img width={"30px"} className='img-fluid me-1' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                                        <h6 className='d-inline-block'>CSS (Cascading Style Sheets)</h6>
+                                    </div>
+                                    <div>
+                                        <img width={"30px"} className='img-fluid me-1' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                                        <h6 className='d-inline-block'>HTML (HyperText Markup Language)</h6>
+                                    </div>
+                                    <div>
+                                        <img width={"30px"} className='img-fluid me-1' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+                                        <h6 className='d-inline-block'>NodeJS</h6>
+                                    </div>
+                                    <div>
+                                        <img width={"30px"} className='img-fluid me-1' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
+                                        <h6 className='d-inline-block'>SASS (Syntactically Awesome Style Sheets)</h6>
+                                    </div>
+                                    <div>
+                                        <img width={"30px"} className='img-fluid me-1' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" />
+                                        <h6 className='d-inline-block'>.NET Core</h6>
+                                    </div>
                                 </ResumeListItem>
                             </ResumeSubList>
 
@@ -84,9 +105,14 @@ const Resume = () => {
 
                             <ResumeSubList title='Version Control'  useFlex={true}>
                                 <ResumeListItem className='text-start'>
-                                    <ul>
-                                        <li>Git / GitHub</li>
-                                    </ul>
+                                    <div>
+                                        <img width={"30px"} className='img-fluid me-1' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+                                        <h6 className='d-inline-block'>git</h6>
+                                    </div>
+                                    <div>
+                                        <img width={"30px"} className='img-fluid me-1' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                                        <h6 className='d-inline-block'>GitHub</h6>
+                                    </div>
                                 </ResumeListItem>
                             </ResumeSubList>
 
@@ -137,6 +163,8 @@ const Resume = () => {
                                 <ResumeListItem className='text-start'>
                                     <ul>
                                         <li>PyQT</li>
+                                        <li>WPF</li>
+                                        <li>Tkinter</li>
                                     </ul>
                                 </ResumeListItem>
                             </ResumeSubList>
