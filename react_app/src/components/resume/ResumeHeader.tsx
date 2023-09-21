@@ -8,7 +8,7 @@ const ResumeHeader = () => {
             </div>
             <div className="col-9">
                 <h1>Kristian Solkær Gade Sørensen</h1>
-                <p>Datatekniker med speciale i programmering</p>
+                <p>Software Developer / Data Technician with specialty in programming</p>
             </div>
         </div>
     )
