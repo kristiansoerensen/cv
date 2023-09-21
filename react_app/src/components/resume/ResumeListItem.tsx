@@ -2,28 +2,26 @@ import { ReactNode } from "react";
 
 interface Props {
     children?: ReactNode;
-    className?: string;
     title?: string;
-    useFlex?: boolean;
+    iconEntity?: string;
+    imgSrc?: string;
 }
 
-function getTemplate({ className, children, title, useFlex }: Props) {
-    if (useFlex) {
-        return (
-            <div className={className + " flex-container-item"}>
-                { title && <h2>{title}</h2>}
-                <div>{children}</div>
+function getTemplate({ iconEntity, imgSrc, children, title }: Props) {
+    return (
+        <div className="row mb-2">
+            <div className="col-1">
+                <div className="resume-icon">
+                    { imgSrc && <img className='img-fluid' src={imgSrc} /> }
+                    { iconEntity && <span className='h4'>{iconEntity}</span> }
+                </div>
             </div>
-        )
-    }
-    else {
-        return (
-            <div className={className}>
-                { title && <h2>{title}</h2>}
-                <div>{children}</div>
+            <div className="col-11">
+                <h6 className='d-inline-block'>{title}</h6>
+                {children}
             </div>
-        )
-    }
+        </div>
+    )
 }
 
 const ResumeListItem = (props: Props) => {

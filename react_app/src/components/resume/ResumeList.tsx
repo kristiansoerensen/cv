@@ -1,27 +1,29 @@
 import { ReactNode } from "react";
 
 interface Props {
-    bulletPoints?: boolean;
+    noIndent?: boolean;
     children?: ReactNode;
-    className?: string;
     title?: string;
+    titleClass: string;
     useFlex?: boolean;
 }
 
-function getTemplate({ className, children, title, useFlex }: Props) {
+function getTemplate({ noIndent, children, title, useFlex, titleClass }: Props) {
     if (useFlex) {
         return (
-            <div className={className + " flex-container"}>
-                { title && <h2>{title}</h2>}
-                <div>{children}</div>
+            <div className="flex-container-item">
+                <div className="card w-auto h-100">
+                    { title && <div className="card-header"><p className={titleClass}>{title}</p></div>}
+                    <div className="card-body">{children}</div>
+                </div>
             </div>
         )
     }
     else {
         return (
-            <div className={className}>
-                { title && <h3>{title}</h3>}
-                <div>{children}</div>
+            <div className="mb-4">
+                { title && <p className={titleClass}>{title}</p>}
+                <div className={!noIndent ? "ms-3": ""}>{children}</div>
             </div>
         )
     }
