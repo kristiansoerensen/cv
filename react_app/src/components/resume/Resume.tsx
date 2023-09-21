@@ -15,7 +15,7 @@ const Resume = () => {
     return (
         <div className='container'>
             <ResumeProfile/>
-            <hr/>
+            <hr className='mt-2'/>
             <div className='row'>
                 <div className='col-lg-3 text-center'>
                     <ResumeList title='Programming Languages' noIndent={true} titleClass="h3">
@@ -164,119 +164,111 @@ const Resume = () => {
                         </TimelineItem>
                     </Timeline>
 
-                    <div className='flex-container'>
-
-                        <ResumeList title='Web Development' useFlex={true} titleClass="h3">
-                            <ResumeListItem title="NodeJS" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg'>
-                            </ResumeListItem>
-                            <ResumeListItem title="SASS (Syntactically Awesome Style Sheets)" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg'>
-                            </ResumeListItem>
-                            <ResumeListItem title=".NET Core" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg'>
-                            </ResumeListItem>
-                            <ResumeListItem title="Reat" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'>
-                            </ResumeListItem>
-                            <ResumeListItem title="OWL" iconEntity="&#129417;">
-                            </ResumeListItem>
-                            <ResumeListItem title="Bootstrap" imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"></ResumeListItem>
-                            <ResumeListItem title="SEO (Search Engine Optimization)"></ResumeListItem>
-                        </ResumeList>
-
-                        <ResumeList title='Database Management' useFlex={true} titleClass="h3">
-                            <ResumeList title='Document Database' useFlex={false} titleClass="h5">
-                                <ResumeListItem title="MongoDB" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg'>
+                    <ResumeList title='Solkærs Vin' noIndent={true} titleClass="h3">
+                        <p>
+                            Comming soon...
+                        </p>
+                    </ResumeList>
+                    <ResumeList title='What I have worked with...' noIndent={true} titleClass='h2'>
+                        <div className='flex-container'>
+                            <ResumeList title='Web Development' useFlex={true} titleClass="h3">
+                                <ResumeListItem title="NodeJS" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg'>
+                                </ResumeListItem>
+                                <ResumeListItem title="SASS (Syntactically Awesome Style Sheets)" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg'>
+                                </ResumeListItem>
+                                <ResumeListItem title=".NET Core" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg'>
+                                </ResumeListItem>
+                                <ResumeListItem title="Reat" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'>
+                                </ResumeListItem>
+                                <ResumeListItem title="OWL" iconEntity="&#129417;">
+                                </ResumeListItem>
+                                <ResumeListItem title="Bootstrap" imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"></ResumeListItem>
+                                <ResumeListItem title="SEO (Search Engine Optimization)"></ResumeListItem>
+                            </ResumeList>
+                            <ResumeList title='Database Management' useFlex={true} titleClass="h3">
+                                <ResumeList title='Document Database' useFlex={false} titleClass="h5">
+                                    <ResumeListItem title="MongoDB" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg'>
+                                    </ResumeListItem>
+                                </ResumeList>
+                                <ResumeList title='Relational database' useFlex={false} titleClass="h5">
+                                    <ResumeListItem title="PostgreSQL" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg'>
+                                    </ResumeListItem>
+                                    <ResumeListItem title="Microsoft SQL Server" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg'>
+                                    </ResumeListItem>
+                                    <ResumeListItem title="SQLite" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg'>
+                                    </ResumeListItem>
+                                </ResumeList>
+                            </ResumeList>
+                            <ResumeList title='Data Processing' useFlex={true} titleClass="h3">
+                                <ResumeList title='Big Data' useFlex={false} titleClass="h5">
+                                    <ResumeListItem title="ETL (Extract, Transform, Load)" imgSrc=''></ResumeListItem>
+                                    <ResumeListItem title="ELT (Extract, Load, Transform)" imgSrc=''></ResumeListItem>
+                                </ResumeList>
+                            </ResumeList>
+                            <ResumeList title='Content Management Systems (CMS)' useFlex={true} titleClass="h3">
+                                <ResumeListItem title="Odoo" imgSrc='https://odoocdn.com/openerp_website/static/src/img/assets/svg/odoo_logo.svg'></ResumeListItem>
+                                <ResumeListItem title="WordPress" imgSrc='https://s.w.org/style/images/about/WordPress-logotype-wmark.png'></ResumeListItem>
+                            </ResumeList>
+                            <ResumeList title='Version Control' useFlex={true} titleClass="h3">
+                                <ResumeListItem title="git" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg'>
+                                </ResumeListItem>
+                                <ResumeListItem title="GitHub" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'>
                                 </ResumeListItem>
                             </ResumeList>
-                            <ResumeList title='Relational database' useFlex={false} titleClass="h5">
-                                <ResumeListItem title="PostgreSQL" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg'>
+                            <ResumeList title='Operating Systems' useFlex={true} titleClass="h3">
+                                <ResumeListItem title="Windows 11 / 10 / 8.1 + 8 / 7 / XP" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg'>
                                 </ResumeListItem>
-                                <ResumeListItem title="Microsoft SQL Server" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg'>
+                                <ResumeListItem title="Ubuntu (Linux)" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg'>
                                 </ResumeListItem>
-                                <ResumeListItem title="SQLite" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg'>
+                                <ResumeListItem title="Debian (Linux)" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg'>
+                                </ResumeListItem>
+                                <ResumeListItem title="Raspberry Pi OS" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg'>
                                 </ResumeListItem>
                             </ResumeList>
-                        </ResumeList>
-
-                        <ResumeList title='Data Processing' useFlex={true} titleClass="h3">
-                            <ResumeList title='Big Data' useFlex={false} titleClass="h5">
-                                <ResumeListItem title="ETL (Extract, Transform, Load)" imgSrc=''></ResumeListItem>
-                                <ResumeListItem title="ELT (Extract, Load, Transform)" imgSrc=''></ResumeListItem>
+                            <ResumeList title='E-commerce' useFlex={true} titleClass="h3">
+                                <ResumeListItem title="WooCommerce" imgSrc={wooLogo}></ResumeListItem>
+                                <ResumeListItem title="Odoo E-commerce" imgSrc='https://odoocdn.com/openerp_website/static/src/img/assets/svg/odoo_logo.svg'></ResumeListItem>
                             </ResumeList>
-                        </ResumeList>
-
-                        <ResumeList title='Content Management Systems (CMS)' useFlex={true} titleClass="h3">
-                            <ResumeListItem title="Odoo" imgSrc='https://odoocdn.com/openerp_website/static/src/img/assets/svg/odoo_logo.svg'></ResumeListItem>
-                            <ResumeListItem title="WordPress" imgSrc='https://s.w.org/style/images/about/WordPress-logotype-wmark.png'></ResumeListItem>
-                        </ResumeList>
-
-                        <ResumeList title='Version Control' useFlex={true} titleClass="h3">
-                            <ResumeListItem title="git" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg'>
-                            </ResumeListItem>
-                            <ResumeListItem title="GitHub" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'>
-                            </ResumeListItem>
-                        </ResumeList>
-
-                        <ResumeList title='Operating Systems' useFlex={true} titleClass="h3">
-                            <ResumeListItem title="Windows 11 / 10 / 8.1 + 8 / 7 / XP" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg'>
-                            </ResumeListItem>
-                            <ResumeListItem title="Ubuntu (Linux)" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg'>
-                            </ResumeListItem>
-                            <ResumeListItem title="Debian (Linux)" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg'>
-                            </ResumeListItem>
-                            <ResumeListItem title="Raspberry Pi OS" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg'>
-                            </ResumeListItem>
-                        </ResumeList>
-
-                        <ResumeList title='E-commerce' useFlex={true} titleClass="h3">
-                            <ResumeListItem title="WooCommerce" imgSrc={wooLogo}></ResumeListItem>
-                            <ResumeListItem title="Odoo E-commerce" imgSrc='https://odoocdn.com/openerp_website/static/src/img/assets/svg/odoo_logo.svg'></ResumeListItem>
-                        </ResumeList>
-
-                        <ResumeList title='PoS' useFlex={true} titleClass="h4">
-                            <ResumeListItem title="Odoo PoS"  imgSrc='https://odoocdn.com/openerp_website/static/src/img/assets/svg/odoo_logo.svg'></ResumeListItem>
-                        </ResumeList>
-
-                        <ResumeList title='Online Payment' useFlex={true} titleClass="h3">
-                            <ResumeListItem title="OnPay" imgSrc='https://onpay.io/build/images/onpay-logo-landing.9a91c73f.svg'></ResumeListItem>
-                            <ResumeListItem title="Sampath Bank (Sri Lanka)" imgSrc='https://asset.brandfetch.io/idWS-jlPHh/idpMshWnB4.png?updated=1692407281395'></ResumeListItem>
-                        </ResumeList>
-
-                        <ResumeList title='PoS Payment' useFlex={true} titleClass="h3">
-                            <ResumeListItem title="Worldline / Bambora Host2T" imgSrc={WorldlineLogo}></ResumeListItem>
-                        </ResumeList>
-
-                        <ResumeList title='Enterprise Solutions' useFlex={true} titleClass="h3">
-                            <ResumeListItem title="Odoo ERP (Enterprise Resource Planning)" imgSrc=''></ResumeListItem>
-                        </ResumeList>
-
-                        <ResumeList title='APIs and Protocols' useFlex={true} titleClass="h3">
-                            <ResumeList title="OAuth (Open Authorization)" titleClass='h5'>
-                                <ResumeListItem title="Duende" imgSrc='https://duendesoftware.com/img/logo.png'></ResumeListItem>
-                                <ResumeListItem title="Google" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg'></ResumeListItem>
+                            <ResumeList title='PoS' useFlex={true} titleClass="h4">
+                                <ResumeListItem title="Odoo PoS"  imgSrc='https://odoocdn.com/openerp_website/static/src/img/assets/svg/odoo_logo.svg'></ResumeListItem>
                             </ResumeList>
-                            <ResumeList title="REST API" titleClass='h5'>
-                                <ResumeListItem title="ASP.NET Core Web API"></ResumeListItem>
-                                <ResumeListItem title="Flask" imgSrc='https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/690px-Flask_logo.svg.png'></ResumeListItem>
+                            <ResumeList title='Online Payment' useFlex={true} titleClass="h3">
+                                <ResumeListItem title="OnPay" imgSrc='https://onpay.io/build/images/onpay-logo-landing.9a91c73f.svg'></ResumeListItem>
+                                <ResumeListItem title="Sampath Bank (Sri Lanka)" imgSrc='https://asset.brandfetch.io/idWS-jlPHh/idpMshWnB4.png?updated=1692407281395'></ResumeListItem>
                             </ResumeList>
-                        </ResumeList>
-
-                        <ResumeList title='Hosting and Deployment' useFlex={true} titleClass="h3">
-                            <ResumeListItem title="NGINX" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg'></ResumeListItem>
-                            <ResumeListItem title="Docker" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg'>
-                            </ResumeListItem>
-                        </ResumeList>
-
-                        <ResumeList title='GUI Development' useFlex={true} titleClass="h3">
-                            <ResumeListItem title="PyQT" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/qt/qt-original.svg'>
-                            </ResumeListItem>
-                            <ResumeListItem title="WPF" imgSrc=''></ResumeListItem>
-                            <ResumeListItem title="Tkinter" imgSrc=''></ResumeListItem>
-                        </ResumeList>
-
-                        <ResumeList title='3D Modeling and Printing' useFlex={true} titleClass="h3">
-                            <ResumeListItem title="3D Modeling" imgSrc=''></ResumeListItem>
-                            <ResumeListItem title="3D Printing" imgSrc=''></ResumeListItem>
-                        </ResumeList>
-                    </div>
+                            <ResumeList title='PoS Payment' useFlex={true} titleClass="h3">
+                                <ResumeListItem title="Worldline / Bambora Host2T" imgSrc={WorldlineLogo}></ResumeListItem>
+                            </ResumeList>
+                            <ResumeList title='Enterprise Solutions' useFlex={true} titleClass="h3">
+                                <ResumeListItem title="Odoo ERP (Enterprise Resource Planning)" imgSrc=''></ResumeListItem>
+                            </ResumeList>
+                            <ResumeList title='APIs and Protocols' useFlex={true} titleClass="h3">
+                                <ResumeList title="OAuth (Open Authorization)" titleClass='h5'>
+                                    <ResumeListItem title="Duende" imgSrc='https://duendesoftware.com/img/logo.png'></ResumeListItem>
+                                    <ResumeListItem title="Google" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg'></ResumeListItem>
+                                </ResumeList>
+                                <ResumeList title="REST API" titleClass='h5'>
+                                    <ResumeListItem title="ASP.NET Core Web API"></ResumeListItem>
+                                    <ResumeListItem title="Flask" imgSrc='https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/690px-Flask_logo.svg.png'></ResumeListItem>
+                                </ResumeList>
+                            </ResumeList>
+                            <ResumeList title='Hosting and Deployment' useFlex={true} titleClass="h3">
+                                <ResumeListItem title="NGINX" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg'></ResumeListItem>
+                                <ResumeListItem title="Docker" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg'>
+                                </ResumeListItem>
+                            </ResumeList>
+                            <ResumeList title='GUI Development' useFlex={true} titleClass="h3">
+                                <ResumeListItem title="PyQT" imgSrc='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/qt/qt-original.svg'>
+                                </ResumeListItem>
+                                <ResumeListItem title="WPF" imgSrc=''></ResumeListItem>
+                                <ResumeListItem title="Tkinter" imgSrc=''></ResumeListItem>
+                            </ResumeList>
+                            <ResumeList title='3D Modeling and Printing' useFlex={true} titleClass="h3">
+                                <ResumeListItem title="3D Modeling" imgSrc=''></ResumeListItem>
+                                <ResumeListItem title="3D Printing" imgSrc=''></ResumeListItem>
+                            </ResumeList>
+                        </div>
+                    </ResumeList>
                 </div>
             </div>
         </div>

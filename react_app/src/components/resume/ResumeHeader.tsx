@@ -2,7 +2,7 @@
 
 const ResumeHeader = () => {
     return (
-        <div className="row">
+        <div className="row mt-3">
             <div className="col-3" >
 
             </div>
