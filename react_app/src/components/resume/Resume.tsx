@@ -101,6 +101,7 @@ const Resume = () => {
                                     In the span of 3.5 years at VK DATA ApS, I have grown from a novice software developer to a key contributor, handling complex tasks and projects. 
                                     My journey has been marked by continuous learning, overcoming challenges, and contributing to significant projects.
                                 </p>
+                                
                                 <h4>Major Projects and Achievements</h4>
                                 <ol>
                                     <li>
@@ -114,12 +115,24 @@ const Resume = () => {
                                         The project required communication from the payment terminal to an IoT Box / Raspberry Pi, and from the Raspberry Pi to the PoS computer, and vice versa.
                                     </li>
                                 </ol>
+                                
+                                <h4>Current Role and Major Project</h4>
+                                <p>
+                                    Currently, I hold multiple roles at VK DATA ApS - I am a project leader, software architect, and software developer for one of our biggest projects, "MitMedlem". MitMedlem is a comprehensive member system based on Odoo version 16.0. 
+                                    It's a completely new platform, designed to replace the old member system that Det Danske Spejder Korps is currently using.
+                                </p>
+                                <p>
+                                    MitMedlem is a robust system capable of handling all member data, including events, accounting, website management, member portal, access right control, membership and subscription, statistics, and much more. 
+                                    As the mastermind and architect of this project, I am responsible for its design and development.
+                                </p>
+                                
                                 <h4>Growing Responsibilities and Skills</h4>
                                 <p>
                                     Over the years, my responsibilities have grown in tandem with my skills. 
                                     I have taken on increasingly complex tasks, making me an integral part of the team. 
                                     My ability to visualize complex software pieces has made me harder to replace.
                                 </p>
+                                
                                 <h4>Coding Philosophy</h4>
                                 <p>
                                     I strive to adhere to, and often exceed, coding guidelines. 
